@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: rsuslov/gitops:hellov1.1
+        image: rsuslov/gitops:hellov1.2
 ---
 kind: Service
 apiVersion: v1
