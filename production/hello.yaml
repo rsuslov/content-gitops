@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello
-  namespace: lasample
+  namespace: lasample-prod
   labels:
     app: hello
 spec:
@@ -23,7 +23,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: hello-service
-  namespace: lasample
+  namespace: lasample-prod
 spec:
   selector:
     app: hello
